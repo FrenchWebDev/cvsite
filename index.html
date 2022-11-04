@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Mon site</title>
+</head>
+<body id="body">
+    <header>
+        
+        <div class="card">
+            <div class="icon"><img class="icon" src="user_icon.svg" alt="user_icon"></div>
+            <div class="content_card">
+                <p>Je m'appelle Rudy Daniel, je suis développeur autodidacte. je suis passionner par le développement des sites, 
+                    je fais beaucoup de front-end et récement je me suis lancé dans le back-end. <br><br> ma maitrise du css me permet 
+                    de compenser mon manque sur le javascript <br><br> Je suis très investis dans met travaux et shouaites en faire mon métier.
+                </p>
+                
+                <p class="mail">
+                    si vous shouaitez me laisser un mail:
+                    <br><br>
+                    <form action="mailto:rudy0017@icloud.com?subject=Commentaire site" name="envoi" method=POST enctype="text/plain">
+                        <p>Nom : </p><input class="sender_mail" type="text" name="nom"size=50 maxlength=50><br>
+                        <p>Prenom : </p><input class="sender_mail" type="text" name="PRENOM"size=50 maxlength=50><br><br>
+                        <textarea class="sender_mail" name="message" cols="60" rows="5" placeholder="écrivez votre message:"></textarea>
+                        <input id="submit" type="submit" value="Envoyer">
+                    </form>
+                </p>
+            </div>
+        </div>
+        
+        <div class="scroll_page" id="page">
+
+            <div class="content">
+
+                <div class="box">
+                    <div class="title">Langages aquis:</div>
+                    <div class="content-box">
+                        <div class="item-svg hovertext" data-hover="HTML"><img class="item-svg" src="html.svg" alt="Icon html"></div>
+                        <div class="item-svg hovertext" data-hover="CSS"><img class="item-svg" src="css.svg" alt="Icon css"></div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="title">Langages semi acquis:</div>
+                    <div class="content-box">
+                        <div class="item-svg hovertext" data-hover="JavaScript"><img class="item-svg" src="js.svg" alt="Icon js"></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="ti">Langages en cours d'appentissages:</div>
+                    <div class="content-box">
+                        <div class="item-svg hovertext" data-hover="PHP"><img class="item-svg" src="php.svg" alt="Icon js"></div>
+                        <div class="item-svg hovertext" data-hover="SQL"><img class="item-svg" id="png" src="sql.png" alt="Icon js"></div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="close" id="btn_close_page">Fermer</button>
+        </div>
+        <div id="scroll_page_btn"><img src="arrow.svg" alt="arrow draw.svg" id="arrow-svg"></div>
+    </header>
+    <nav>
+
+    </nav>
+    <footer>
+
+    </footer>
+</body>
+</html>
